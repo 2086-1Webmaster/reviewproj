@@ -9,3 +9,53 @@ html, body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*<!--        gallery start-->*/
+#gallery .col-lg-3,#gallery .col-12
+{
+    position: relative;
+}
+#gallery .overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.6s ease;
+    background: black;
+    opacity: 0;
+}
+#gallery .col-lg-3:hover .overlay
+{
+    opacity: 0.8;
+}
+#gallery .icon
+{
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#gallery .btngal
+{
+    width: 180px;
+    height: 52px;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(16, 201, 195, 0.6);
+    border-radius: 0;
+    outline: 0;
+    border: 0;
+    padding: 12px 12px
+}
+#gallery .btngal:hover
+{
+    background: rgb(16, 201, 195); 
+}
+/*<!--        gallery end-->*/
