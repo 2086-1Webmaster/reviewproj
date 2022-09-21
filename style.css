@@ -59,3 +59,24 @@ html, body {
     background: rgb(16, 201, 195); 
 }
 /*<!--        gallery end-->*/
+
+
+
+#cf {
+  position:relative;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  background-color: rgba(0,0,0,0.8);
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
