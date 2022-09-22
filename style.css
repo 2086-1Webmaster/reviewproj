@@ -1,82 +1,73 @@
 html, body {
   height: 100%;
   width: 100%;
-    font-family: 'Montserrat', sans-serif;
+}
+.background{
+ background-image: url("images/images/aidan-hancock-8RU4OuA6Yug-unsplash.png" );
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center center;
 }
 
-.container-fluid{
-  padding: 0px;
+.font-change{
+  font-family: "Nunito Sans";
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-/*<!--        gallery start-->*/
-#gallery .col-lg-3,#gallery .col-12
-{
-    position: relative;
-}
-#gallery .overlay 
-{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transition: 0.6s ease;
-    background: black;
-    opacity: 0;
-}
-#gallery .col-lg-3:hover .overlay
-{
-    opacity: 0.8;
-}
-#gallery .icon
-{
-    color: white;
-    font-size: 48px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-#gallery .btngal
-{
-    width: 180px;
-    height: 52px;
-    color: rgba(255, 255, 255, 0.9);
-    background: rgba(16, 201, 195, 0.6);
-    border-radius: 0;
-    outline: 0;
-    border: 0;
-    padding: 12px 12px
-}
-#gallery .btngal:hover
-{
-    background: rgb(16, 201, 195); 
-}
-/*<!--        gallery end-->*/
-
-
-
-#cf {
-  position:relative;
-  margin:0 auto;
+.font-changetwo{
+  font-family: "Montserrat";
 }
 
-#cf img {
-  position:absolute;
-  background-color: rgba(0,0,0,0.8);
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+.progress-bar-blue {
+      background-color: #10C9C3 !important;
 }
 
-#cf img.top:hover {
-  opacity:0;
+.white{
+  color:white;
+}
+
+.boring{
+  background-color:#10C9C3 !important;
+}
+.limit{
+        height: auto;
+        max-height: 500px;
+        overflow: hidden;
+}
+.limit img{
+       width: 100%;
+       height: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #181818;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

@@ -4,318 +4,222 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>HTML/CSS/Bootstrap Review</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito Sans
+">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat
+">
 
   <link rel="stylesheet" href="style.css">
-
-
-  <title>May Lord Have Mercy on my Miserable Soul</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-
 </head>
 
 <body>
+  <div class="container-fluid background">
+    <nav class=" navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand ml-3" href="#"> <img src="images/images/logos/brand-logo.png" width="30" height="30"
+          class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-
-  <!-- BANNER -->
-  <div
-    style="background-image: url('images/things/aidan-hancock-8RU4OuA6Yug-unsplash.png'); background-size: contain; background-repeat: no-repeat; padding-down: 100%"
-    class="container-fluid">
-
-
-    <!-- NAVBAR -->
-    <nav style="    font-family: 'Montserrat', sans-serif;"
-      class="navbar bg-transparent container navbar-expand-lg bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/things/logos/brand-logo.png" alt="Bootstrap" width="30" height="24">
-        </a>
-        <div class="float-right">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNavDropdown">
-            <ul class="nav navbar-nav">
-              <li class="nav-item">
-                <a style="color: #10C9C3" class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
-              </li>
-              <li class="nav-item">
-                <a style="color: black" class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a style="color: black" class="nav-link" href="#">Work</a>
-              </li>
-              <li class="nav-item">
-                <a style="color: black" class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a style="color: black" class="nav-link" href="#">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a style="color: black" class="nav-link" href="#">Contact</a>
-              </li>
-
-            </ul>
-            </li>
-            </ul>
-          </div>
-
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" style="color:#10C9C3" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:black" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:black" href="#">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:black" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:black" href="#">TESTIMONALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:black" href="#">CONTACTS</a>
+          </li>
+        </ul>
       </div>
     </nav>
-
-    <div style="padding-bottom: 13%"></div>
-
-    <div class=" container-fluid row">
-
-      <div class="col-sm-6">
-
-      </div>
-
-
-      <div class="col-sm-6">
-        <h1 style="text-align: justify;         font-family: 'Nunito Sans', sans-serif;, sans-serif; font-size: 5.5vh">
-          We Design and Develop</h1>
-      </div>
-    </div>
-
-    <div class="row container-fluid">
-
-      <div class="col-sm-6">
-
-      </div>
-
-
-
-      <div class="col-sm-6 text-center">
-        <h5 style="text-align: justify;    font-family: 'Nunito Sans', sans-serif; font-size: 3vh">We are a new design
-          studio based in USA. We have over
-          20 years of combined experience, and know a thing or two
-          about designing websites and mobile apps.</h5>
-      </div>
-
-    </div>
-
-    <div style='padding-bottom: 2%'></div>
-    <div class="row container-fluid">
-
-      <div class="col-sm-6">
-
-      </div>
-
-
-      <div class="col-sm-6 text-left">
-        <button
-          style="font-family: 'Montserrat', sans-serif; padding-top: 2%; padding-bottom: 2%; padding-left: 4%; padding-right: 4%; border-radius: 0px; background-color: #10C9C3; color: white"
-          type="button" class="btn ">Contact Us</button>
-      </div>
-
-
-
-    </div>
-
-
-
-
-    <div style="padding-bottom: 25%"> </div>
-
-    <!--About us section-->
-
-    <div>
-
-      <div class="row container-fluid">
-        <div style="padding-bottom: 5%"> </div>
-
-        <h1 style="    font-family: 'Nunito Sans', sans-serif;" class="text-center">About us</h4>
-
-
-      </div>
-      <div style="padding-bottom: 1%"></div>
-      <div class="container">
-
-
-
-        <h3 style="    font-family: 'Nunito Sans', sans-serif; color:#828282" class="text-center">Divide have don't man
-          wherein air fourth. Own itself make have night won't make.
-          A you under Seed appear which good give. Own give air without fowl moveth dry first
-          heaven fruit, dominion she'd won't very all.</h3>
-
-
-
-        <div class="col-sm-4 text-center">
-
-        </div>
-
-      </div>
-      <div style="padding-bottom: 4%;"></div>
-
-      <div class="container text-center">
-
-
-        <img src="images/things/signature.png">
-      </div>
-
-      <div style="padding-bottom: 10%"> </div>
-
-    </div>
-
-    <!--The progress bars section-->
-
-
-    <div class="container-fluid w-100 h-75"
-      style="background-color: #F5F5F5;     font-family: 'Nunito Sans', sans-serif;">
-      <div class="row">
-        <div style="padding-left: 8%; padding-top:13%" class="col-sm-6 container">
-          <h1>Professional Skills</h1>
-          <br>
-          <div class="row">
-            <h1>UI/UX DESIGN</h1>
-            <div style="height: 5px" class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                aria-valuemax="95"></div>
-            </div>
-          </div>
-          <br><br>
-          <div class="row">
-            <h1>WEB DEVELOPMENT</h1>
-            <div style="height: 5px" class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                aria-valuemax="95"></div>
-            </div>
-          </div>
-
-          <br><br>
-          <div class="row">
-            <h1>MARKETING</h1>
-            <div style="height: 5px" class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
-                aria-valuemax="95"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 text-center">
-          <img class="w-100" src="images/things/stil-sHGyGynyD5Y-unsplash.png">
+    <div class="row">
+      <div class="col-5 ml-auto">
+        <div class="jumbotron" style="background:transparent !important; margin-top:340px">
+          <h1 class="display-5 mt-5 font-change">We Design and Develop
+          </h1>
+          <p class="lead font-change">We are a new design studio based in USA. We have over
+            20 years of combined experience, and know a thing or two
+            about designing websites and mobile apps.</p>
+          <a class="btn btn-lg mt-5" style="background-color:#10C9C3; color: white; margin-bottom:340px" href="#"
+            role="button">Contact Us</a>
         </div>
       </div>
-
-
-    </div>
-
-    <!--'bragsheet' section-->
-
-    <div class="container-fluid w-100 h-100"
-      style="background-color: #10C9C3; height: 150% ;     font-family: 'Montserrat', sans-serif; color: white">
-
-      <div style="padding-top: 7%" </div>
-
-        <div class="row text-center">
-
-          <div class="col-sm-3">
-            <div class="float-left image-wrapper">
-              <img src="images/things/icons/icon-01.png">
-            </div>
-            <h5>548 PROJECTS COMPLETED</h1>
-
-          </div>
-
-          <div class="col-sm-3">
-            <img class="float-left img-fluid image-wrapper" src="images/things/icons/icon-02.png">
-            <h5>1465 WORKING HOURS</h1>
-          </div>
-          <div class="col-sm-3">
-            <img class="float-left img-fluid image-wrapper" src="images/things/icons/icon-03.png">
-            <h5>612 POSITIVE FEEDBACKS</h1>
-          </div>
-          <div class="col-sm-3">
-            <img class="float-left img-fluid image-wrapper" src="images/things/icons/icon-04.png">
-            <h5>735 HAPPY CLIENTS</h1>
-          </div>
-
-
-
-
-        </div>
-        <div style="padding-bottom: 7%" </div>
-
-        </div>
-      </div>
-    </div>
-
-    <!--Different products part-->
-
-
-    <div style="padding: 0px; background-color: #FFFAFA" class="container-fluid text-center">
-      <div style="padding: 0px" class="row">
-
-        <div class="col-sm-3">
-          <img class=" h-100 w-100"
-            src="images/things/Package%20Design%20Lemon%20Tea%20-%20fabian%20krotzer%20Frame.png">
-        </div>
-
-        <div class="col-sm-3">
-          <img class="h-100 w-100"
-            src="images/things/Package%20Design%20Vanilla%20Powder%20-%20fabian%20krotzer%20Frame.png">
-
-        </div>
-
-        <div class="col-sm-3">
-          <img class="h-100 w-100" src="images/things/Package%20Design%20Coconut%20-%20fabian%20krotzer%20Frame.png">
-
-        </div>
-
-
-        <div class="col-sm-3">
-          <img class="h-100 w-100" src="images/things/Package%20Design%20Komaso%20-%20fabian%20krotzer%20Frame.png">
-
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col-sm-3">
-          <img class="h-100 w-100" src="images/things/Package%20Design%20Spices%20-%20fabian%20krotzer%20Frame.png">
-        </div>
-
-        <div class="col-sm-3">
-          <img class="h-100 w-100" src="images/things/Package%20Design%20Salad%20-%20fabian%20krotzer%20Frame.png">
-        </div>
-
-        <div class="col-sm-3">
-          <img class="h-100 w-100"
-            src="images/things/Package%20Design%20Olive%20Oil%20-%20fabian%20krotzer%20Frame.png">
-        </div>
-
-        <div class="col-sm-3">
-          <img class="h-100 w-100" src="images/things/Package%20Design%20Seaweed%20-%20fabian%20krotzer%20Frame.png">
-        </div>
-
-      </div>
-
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-8 mx-auto" style="margin-top: 100px; margin-bottom:100px">
+        <div class="card border-0">
+          <div class="card-body">
+            <h5 class="display-4 text-center font-change mb-4">About Us</h5>
+            <p class="card-text text-center font-change">Divide have don't man wherein air fourth. Own itself make have
+              night won't make.
+              A you under Seed appear which good give. Own give air without fowl moveth dry first
+              heaven fruit, dominion she'd won't very all.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-9 mt-4 mb-5 ml-auto">
+            <img class="ml-auto" src="images/images/signature.png" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <!--Services section-->
-
-
-  <div style="background-color: #F5F5F5" class="container-fluid row">
+  <div class="container-fluid" style="background-color: #F5F5F5">
+    <div class="row">
+      <div class="col-8 col-md-6">
+        <div class="jumbotron jumbotron-fluid ml-2" style="background:transparent !important; margin-top:100px">
+          <div class="container mt-5">
+            <h1 class="display-4 mt-5">Professional Skills</h1>
+            <p class="lead mt-5 mb-5">UI/UX DESIGN 75%</p>
+            <div class="progress" style="height:4px">
+              <div class="progress-bar progress-bar-blue" role="progressbar" style="width: 75%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="lead mt-5 mb-5">WEB DEVELOPMENT 90%
+            </p>
+            <div class="progress" style="height:4px">
+              <div class="progress-bar progress-bar-blue" role="progressbar" style="width: 90%" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="lead mt-5 mb-5">MARKETING 65%</p>
+            <div class="progress" style="height:4px; margin-bottom:200px">
+              <div class="progress-bar progress-bar-blue" role="progressbar" style="width: 65%" aria-valuenow="65"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 col-md-6"
+        style="background-image:url(images/images/stil-sHGyGynyD5Y-unsplash.png); background-size: cover; background-position: center center;">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid white boring">
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col" style="margin-top:60px; margin-bottom:50px"><img src="images/images/icons/icon-01.png"
+              class="float-right img-fluid">
+          </div>
+          <div class="col" style="margin-top:50px; margin-bottom:50px">
+            <h5>548</h5>
+            <p>PROJECTS COMPLETED</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col" style="margin-top:60px; margin-bottom:50px"><img src="images/images/icons/icon-02.png"
+              class="img-fluid float-right"></div>
+          <div class="col" style="margin-top:50px; margin-bottom:50px">
+            <h5>1465</h5>
+            <p>WORKING HOURS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col" style="margin-top:60px; margin-bottom:50px"><img src="images/images/icons/icon-03.png"
+              class="img-fluid float-right"></div>
+          <div class="col" style="margin-top:50px; margin-bottom:50px">
+            <h5>612</h5>
+            <p>POSITIVE FEEDBACKS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col" style="margin-top:60px; margin-bottom:50px"><img src="images/images/icons/icon-04.png"
+              class="img-fluid float-right"></div>
+          <div class="col" style="margin-top:50px; margin-bottom:50px">
+            <h5>735</h5>
+            <p>HAPPY CLIENTS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: #F5F5F5">
+    <div class="row">
+      <div class="col-3 pr-0 pl-0 limit container"><img
+          src="images/images/Package%20Design%20Lemon%20Tea%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+      <div class="col-3 pr-0 pl-0 limit container"><img
+          src="images/images/Package%20Design%20Vanilla%20Powder%20-%20fabian%20krotzer%20Frame.png"
+          class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+      <div class="col-3 pr-0 pl-0 limit container"><img
+          src="images/images/Package%20Design%20Coconut%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+      <div class="col-3 pr-0 pl-0 limit container"><img
+          src="images/images/Package%20Design%20Komaso%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col pr-0 pl-0 limit container" style=" margin-bottom: 100px"><img
+          src="images/images/Package%20Design%20Spices%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+      <div class="col pr-0 pl-0 limit container" style=" margin-bottom: 100px"><img
+          src="images/images/Package%20Design%20Salad%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+      <div class="col pr-0 pl-0 limit container" style=" margin-bottom: 100px"><img
+          src="images/images/Package%20Design%20Olive%20Oil%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+      <div class="col pr-0 pl-0 limit container" style=" margin-bottom: 100px"><img
+          src="images/images/Package%20Design%20Seaweed%20-%20fabian%20krotzer%20Frame.png" class="img-fluid image">
+        <div class="overlay">
+          <div class="text"><img src="images/images/icons/hover-icon.png"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div style="background-color: #F5F5F5" class="container-fluid row">
     <div style="padding-bottom:10%"></div>
   </div>
 
-  <div class="container-fluid text-center">
-    <div class="row">
+  <div class=" text-center row">
+    <div class="container-fluid">
       <div style="padding-top: 3%"></div>
       <div class="col-sm-12">
         <h1 style="font-family: 'Nunito Sans', sans-serif;">Services</h1>
@@ -324,7 +228,7 @@
       <div style="padding-top: 5%"></div>
       <div class="row text-center">
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-05.png">
+          <img src="images/images/icons/icon-05.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">UI / UX DESIGN</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Be set fourth land god darkness make it wherein
             own</p>
@@ -333,7 +237,7 @@
 
 
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-06.png">
+          <img src="images/images/icons/icon-06.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">WEB DEVELOPMENT</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">A she'd them bring void moving
             third she'd kind fill</p>
@@ -341,7 +245,7 @@
 
 
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-07.png">
+          <img src="images/images/icons/icon-07.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">APP / MOBILE</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Dominion man second spirit he,
             earth they're creeping</p>
@@ -349,7 +253,7 @@
 
 
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-08.png">
+          <img src="images/images/icons/icon-08.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">GAME DESIGN</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Morning his saying moveth it
             multiply appear life be</p>
@@ -363,7 +267,7 @@
 
       <div class="row text-center">
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-09.png">
+          <img src="images/images/icons/icon-09.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">SEO / MARKETING</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Give won't after land fill creeping
             meat you, may</p>
@@ -372,7 +276,7 @@
 
 
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-10.png">
+          <img src="images/images/icons/icon-10.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">PHOTOGRAPHY</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Creepeth one seas cattle grass
             give moving saw give</p>
@@ -380,7 +284,7 @@
 
 
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-11.png">
+          <img src="images/images/icons/icon-11.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">GRAPHIC DESIGN</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Open, great whales air rule for,
             fourth life whales</p>
@@ -388,7 +292,7 @@
 
 
         <div class="col-sm-3">
-          <img src="images/things/icons/icon-12.png">
+          <img src="images/images/icons/icon-12.png">
           <h4 style="font-family: 'Nunito Sans', sans-serif;">ILLUSTRATIONS</h4>
           <p style="font-family: 'Montserrat', sans-serif;color:#828282">Whales likeness hath, man kind
             for them air two won't</p>
@@ -405,252 +309,109 @@
   </div>
 
   </div>
-  <div style="padding-bottom: 5%"></div>
-
-  <!--The review section-->
-
-
-  <div style="background-color: #10C9C3" class="container-fluid text-center">
-    <div style="padding-top: 13%"></div>
-
-    <div class="row  text-center">
-
-
-      <div class="col-sm-12">
-
-        <h3 style="    font-family: 'Nunito Sans', sans-serif; color: white" class="container">“Outstanding job and
-          exceeded all expectations. It was a pleasure
-          to work with them on a sizable first project and am looking
-          forward to start the next one asap.”</h3>
-
-        <div style="padding-top: 1%"></div>
-        <h5 style="font-family: 'Montserrat', sans-serif; color: white; ">Michael Hopkins</h5>
-
-      </div>
-
-      <div style="padding-bottom: 9%"></div>
-
-    </div>
-
-  </div>
-
-  <!--Different companies page-->
-
-
-  <div class="container-fluid">
-
-    <div style="padding-top: 5%"></div>
-    <div class="row text-center">
-      <div class="col">
-        <img src="images/things/logos/logo-01.png">
-      </div>
-      <div class="col">
-        <img src="images/things/logos/logo-02.png">
-      </div>
-      <div class="col">
-        <img src="images/things/logos/logo-03.png">
-      </div>
-      <div class="col">
-        <img src="images/things/logos/logo-04.png">
-      </div>
-      <div class="col">
-        <img src="images/things/logos/logo-05.png">
-      </div>
-      <div style="padding-bottom: 5%"></div>
-
-    </div>
-
-  </div>
-
-
-
-  </div>
-
-  <!--About us section-->
-
-
-  <div style="background-color: #F5F5F5" class="container-fluid">
-    <div style="padding-top: 6%"></div>
-    <div class="container">
-      <h1 style="        font-family: 'Montserrat', sans-serif;" class="text-center">Need a Project?</h1>
-    </div>
-
-    <div style="padding-top: 2%"></div>
-
+  <div style="padding-bottom: 5%"></div>  <div class="container-fluid text-center" style="background-color: #10C9C3; color: white">
     <div class="row">
-
-
-
-
-
-      <div class="col-sm-4">
-
-
+      <div class="col-4 mx-auto" style="margin-top:200px">
+        <h3>“ Outstanding job and exceeded all expectations. It was a pleasure
+          to work with them on a sizable first project and am looking
+          forward to start the next one asap.”</h1>
       </div>
-
-      <div class="col-sm-4 text-center">
-        <h4 style="        font-family: 'Montserrat', sans-serif;" class="text-center">Let us know what you're looking
-          for in an agency. We'll take a look and see
-          if this could be the start of something beautiful.</h4>
-
-      </div>
-
-      <div class="col-sm-4">
-
-
-      </div>
-
-
-
-
     </div>
-    <div style="padding-top: 2%"></div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-sm-6">
-          <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
-        </div>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" placeholder="Your Email" aria-label="Last name">
-        </div>
+    <div class="row">
+      <div class="col-6 mx-auto mt-5" style="margin-bottom:200px">
+        <p>MICHAEL HOPKINS</p>
       </div>
-
-      <div style="padding-top: 3%"></div>
-
-      <div class="row">
-
-        <div class="col-sm-12">
-
-          <input type="text" class="form-control" placeholder="Your Title" aria-label="First name">
-        </div>
-
-        <div style="padding-top: 3%"></div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row" style="margin-top:100px; margin-bottom:100px">
+      <div class="col"><img class="img-fluid mx-auto d-block" src="images/images/logos/logo-01.png"></div>
+      <div class="col"><img class="img-fluid mx-auto d-block" src="images/images/logos/logo-02.png"></div>
+      <div class="col"><img class="img-fluid mx-auto d-block" src="images/images/logos/logo-03.png"></div>
+      <div class="col"><img class="img-fluid mx-auto d-block" src="images/images/logos/logo-04.png"></div>
+      <div class="col"><img class="img-fluid mx-auto d-block" src="images/images/logos/logo-05.png"></div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color:#F5F5F5">
+    <div class="row">
+      <div class="col-6 mx-auto" style="margin-top:100px; margin-bottom:100px">
         <div class="row">
-
-          <div class="col-sm-12">
-
-
-            <textarea placeholder="Your Comment" class="form-control" id="exampleFormControlTextarea1"
-              rows="5"></textarea>
+          <div class="col text-center mx-auto mb-3">
+            <h1>Need a Project?</h1>
           </div>
-
-          <div style="padding-bottom: 8%"></div>
-
         </div>
+        <div class="row text-center mb-3">Let us know what you're looking for in an agency. We'll take a look and see
+          if this could be the start of something beautiful.</div>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <input type="name" class="form-control form-control-lg" id="exampleFormControlInput1"
+                placeholder="Your Name">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1"
+                placeholder="Your Email">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <input type="title" class="form-control form-control-lg" id="exampleFormControlInput1"
+                placeholder="Your Title">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <textarea type="comment" class="form-control form-control-lg" id="exampleFormControlInput1"
+                placeholder="Your Comment" rows="6"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row"> <a class="btn btn-lg mt-3 mx-auto"
+            style="background-color:#10C9C3; color: white; margin-bottom:100px" href="#" role="button">Send
+            Message</a></div>
       </div>
-
     </div>
-
   </div>
-
-
-
-  <!--Footer-->
-
-
-  <div style="background-color: #141414;     font-family: 'Nunito Sans', sans-serif; color: white"
-    class="container-fluid">
-    <footer style="background-color: #141414; color: white" class="text-center text-lg-start">
-      <div style="padding-top: 2%"></div>
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-left text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i style="color: white" class="fas text-left fa-gem me-3"></i>Piroll Design, Inc.
-              </h6>
-              <p>
-                ©2017 Piroll. All rights reserved. <br> Designed by robiruk
-              </p>
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-
-              <p>
-                <a href="#!" class="text-reset">hello@pirolltheme.com</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">+44 987 065 908</a>
-              </p>
-
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-
-              <p>
-                <a href="#!" class="text-reset">Projects</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">About</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Services</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Career</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-
-              <p>
-                <a href="#!" class="text-reset">News</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Events</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Contact</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Legal</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <!-- Links -->
-              <p><i class="fas fa-home me-3"></i> Facebook</p>
-              <p>
-                <i class="fas fa-envelope me-3"></i>
-                Twitter
-              </p>
-              <p><i class="fas fa-phone me-3"></i>Instagram</p>
-              <p><i class="fas fa-print me-3"></i>Dribbble</p>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
+  <footer>
+    <div class="container-fluid" style="background-color:#141414; color:white">
+      <div class="row">
+        <div class="col" style="margin-top:100px; margin-bottom:100px">
+          <h5>Piroll Design, Inc.</h5>
+          <p>© 2017 Piroll. All rights reserved.
+            Designed by robirurk.</p>
         </div>
-      </section>
-      <!-- Section: Links  -->
-
-    </footer>
-    <!-- Footer -->
-
-  </div>
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        <div class="col" style="margin-top:100px; margin-bottom:100px">
+          <p class="float-right">hello@pirolltheme.com<br>+44 987 065 908</p>
+        </div>
+        <div class="col" style="margin-top:100px; margin-bottom:100px">
+          <p class="float-right">Projects<br>
+            About<br>
+            Services<br>
+            Career</p>
+        </div>
+        <div class="col ml-3" style="margin-top:100px; margin-bottom:100px">News<br>
+          Events<br>
+          Contact<br>
+          Legal</div>
+        <div class="col" style="margin-top:100px; margin-bottom:100px">Facebook<br>
+          Twitter<br>
+          Instagram<br>
+          Dribbble</div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-
-
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
